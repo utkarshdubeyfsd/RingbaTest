@@ -51,7 +51,8 @@ namespace ringba_test
             }
             string TextwithSpace = builder.ToString();
 
-            var Value = TextwithSpace.Split(' ');  // Split the string using 'Space'  
+            var Value = TextwithSpace.Split(' ');  // Split the string using 'Space'
+
             Dictionary<string, int> RepeatedWordCount = new Dictionary<string, int>();
             for (int i = 0; i < Value.Length; i++) //loop the splited string  
             {
@@ -79,7 +80,12 @@ namespace ringba_test
             Console.WriteLine("# The most common word: " + mostCommonWord + " and the number of times it has been seen: " + occurrences);
             #endregion
 
-            #region Task 4: The most common 2 character prefix and the number of occurrences in the text file
+            #region Task 4: How many letters are capitalized in the file
+            Console.WriteLine();
+            Console.WriteLine("Count of Capitalized letters in the file: " + Value.Length);
+            #endregion
+
+            #region Task 5: The most common 2 character prefix and the number of occurrences in the text file
 
             //retrieve words whose length is more than 2 and then only get it's first 2 character
             List<string> wordCollection = new List<string>();
