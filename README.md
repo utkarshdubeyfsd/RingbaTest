@@ -1,5 +1,5 @@
 # RingbaTest
-a basic code test 
+A basic code test 
 
 ### Output 1
 
