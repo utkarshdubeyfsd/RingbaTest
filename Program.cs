@@ -15,7 +15,7 @@ namespace ringba_test
             //Download the file from URL using webclient
             using (var client = new WebClient())
             {
-                client.DownloadFile("https://ringba-test-html.s3-us-west-1.amazonaws.com/TestQuestions/output.txt", "output.txt");
+                client.DownloadFile("https://raw.githubusercontent.com/utkarshdubeyfsd/RingbaTest/master/output.txt", "output.txt");
             }
 
             // Open the file to read from.
